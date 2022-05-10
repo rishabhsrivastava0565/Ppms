@@ -30,7 +30,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 		
 		auth.authenticationProvider(myauthprovider);
 		
-		// auth.inMemoryAuthentication().withUser("shubham").password( getpasswordEncoder.encode("shubham") ).roles("ADMIN");
+		 auth.inMemoryAuthentication().withUser("shubham").password( getpasswordEncoder.encode("shubham") ).roles("ADMIN");
 	
 	}
 	
